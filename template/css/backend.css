@@ -1,0 +1,77 @@
+
+
+.image_gallery_thumb {
+	width: 110px;
+	height: 140px;
+	float: left;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.image_gallery_thumb label {
+	width: 110px;
+	height: 110px;
+	display: block;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.ui-state-highlight {
+	background-color: #ddd;
+	width: 110px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.ui-sortable-helper label {
+	cursor: move !important;
+	overflow: hidden;
+}
+
+.imginfo {
+	cursor: pointer;
+}
+
+.imageInfo {
+	position: absolute;
+	top: -20px;
+	left: -65px;
+	width: 230px;
+	height: 300px;
+	background-color: #fff;
+	z-index: 0;
+	display: none;
+	border: 1px solid #ddd;
+	padding: 160px 8px 8px 8px;
+	-moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5); /* Firefox */
+	-webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5); /* Safari, Chrome */
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5); /* CSS3 */
+}
+
+.imageInfo-h {
+	z-index: 11
+}
+
+.imagewrap-h {
+	z-index: 12 !important;
+}
+
+.imagewrap {
+	width: 110px;
+	height: 140px;
+	position: absolute;
+	z-index: 1
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 3px;
+	margin-left: 10px;
+}
+
+.checkBox {
+	vertical-align: middle;
+}

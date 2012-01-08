@@ -1,0 +1,39 @@
+Downloaded from: 
+http://web.archive.org/web/20101017032641/http://playground.marcus-obst.de/picasa-webalbum.phtml
+
+Originally From (no longer working)
+http://playground.marcus-obst.de/picasa-webalbum.phtml
+
+
+Picasa Webalbum
+v0.3 beta
+2010-10-14
+
+This is a implementation of Picasa Webalbum into phpwcms as a contentpart with the flexibility of internal images < div > CP and google as content provider.
+
+It uses basically a class by David Gilbert ( http://solidgone.org/Lightweight-php-picasa-api ) to pull a Picasa Webalbum via API, cache the xml and parse it.
+Features
+phpwcms Backend (Verwaltung) - local.playground.marcus-obst.jpg
+
+Screenshot
+
+    retrieve content from any Picasa Webalbum which is public or shared with an authkey.
+    get caption and description from the webalbum
+    use nearly the same logic like phpwcms internal images < div > contentpart and you can use the same templates so integrate it seamless.
+    adjustable picture size, square cropped images, selection of images from album,sorting
+    extendable to render nearly every available data from webalbum (exif, location etc)
+
+ToDo
+
+    Testing, debugging
+    custom sorting in backend
+    improvements
+
+Changelog
+# v 0.3 beta
+- sort images via drag'n'drop in backend
+- more imageinfos in backend
+- english translation file
+
+# v 0.2 beta
+init release 
